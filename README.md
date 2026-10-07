@@ -136,4 +136,4 @@ Apollo Matrimony is optimized for single-container standalone Docker deployment 
 
 ## License
 
-Copyright © 2026 **Apollo Matrimony** (`apollomatrimony.com`). All rights reserved.
+Copyright © 2026 **Apollo Matrimony** (`https://www.apollomatrimony.com`). All rights reserved.
