@@ -19,7 +19,7 @@
 - **Verification & Moderation Portal**: Multi-step photo verification, ID verification, and administrative audit logging (`AuditLog`).
 - **Pluggable Payment Gateways**: Unified payment interface supporting **Razorpay**, **Stripe**, and local mock test flows.
 - **Custom JWT Auth & Edge Security**: Secure dual-cookie JWT system (`am_at` access token + `am_rt` rotating refresh token) with proxy-level route security.
-- **Robust Docker & Dokploy Ready**: Pre-configured standalone Docker production builds with automatic PostgreSQL database setup and migration scripts (`ensure-db.js`).
+- **Robust Docker & Dokploy Ready**: Pre-configured standalone Docker production builds with automatic PostgreSQL database setup and migration scripts .
 
 ---
 
