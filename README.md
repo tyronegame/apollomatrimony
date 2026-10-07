@@ -115,15 +115,11 @@ Apollo Matrimony is optimized for single-container standalone Docker deployment 
    ```bash
    docker run -d \
      -p 3000:3000 \
-     -e DATABASE_URL="postgresql://postgres:password@postgres-db:5432/apollo_matrimony?schema=public" \
      -e AUTH_SECRET="production-secret-key" \
      -e APP_URL="https://apollomatrimony.com" \
      --name apollo-matrimony-app \
      apollo-matrimony:latest
    ```
-
-3. **Automatic Database Provisioning**:
-   The Docker container includes an automated startup script (`prisma/ensure-db.js`) in `docker-entrypoint.sh` that automatically creates the `apollo_matrimony` database on the PostgreSQL server if it does not exist, and runs `prisma db push` prior to starting the web server.
 
 ---
 
